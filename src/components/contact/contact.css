@@ -1,0 +1,91 @@
+.c {
+    height: 100vh;
+    position: relative;
+}
+
+.c-bg {
+    height: 100%;
+    width: 20px;
+    background-color: purple;
+    position: absolute;
+
+}
+
+.c-warrper {
+    display: flex;
+    padding: 50px;
+}
+
+.c-left {
+    flex: 1;
+}
+
+.c-title {
+    font-size: 60px;
+    width: 80%;
+}
+
+.c-info-item {
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    font-weight: 300;
+    width: 70%;
+}
+
+.c-img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+
+}
+
+.c-right {
+    flex: 1;
+}
+
+.c-desc {
+    font-weight: 300;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+input {
+    width: 50%;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    outline: none;
+    margin: 10px 0;
+    padding: 5px;
+    font-size: 20px;
+}
+
+textarea {
+    width: 50%;
+    height: 80px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    outline: none;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.submit-btn {
+    width: 50%;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    outline: none;
+    background-color: purple;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 20px 0;
+}
