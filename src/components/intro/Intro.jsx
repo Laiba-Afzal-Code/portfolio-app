@@ -1,4 +1,3 @@
-import React from "react";
 import "./intro.css";
 import Me from "../../img/girl.png";
 
@@ -37,7 +36,7 @@ const Intro = () => {
         </div>
         <div className="i-right">
           <div className="i-bg"></div>
-          <img src={Me} alt="" className="i-img" style={{ width: 480 }} />
+          <img src={Me} alt="" className="i-img" />
         </div>
       </div>
     </div>

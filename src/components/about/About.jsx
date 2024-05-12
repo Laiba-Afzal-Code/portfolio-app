@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="a">
       <div className="a-left">
-        <div className="a-card bg"></div>
+        <div className="a-card-bg"></div>
         <div className="a-card">
           <img
             src="https://www.amazonswatchmagazine.com/wp-content/uploads/2020/11/Art-and-Academia-Image.jpg"
@@ -27,12 +27,21 @@ const About = () => {
           photography, and more. Beyond capturing
         </p>
         <div className="a-award">
-            <img src="https://img.pikbest.com/origin/10/10/76/39rpIkbEsTNRW.jpg!w700wp" alt="" className="a-award-img
-            "/>
-            <div className="a-award-desc">
-                <h4 className="a-award-title">International Business Growth Award</h4>
-                <div className="a-award-text">Business growth are improve by our self to fullfil our future goles</div>
+          <img
+            src="https://img.pikbest.com/origin/10/10/76/39rpIkbEsTNRW.jpg!w700wp"
+            alt=""
+            className="a-award-img
+            "
+          />
+          <div className="a-award-desc">
+            <h4 className="a-award-title">
+              International Business Growth Award
+            </h4>
+            <div className="a-award-text">
+              Business growth are improve by our self to fullfil our future
+              goles
             </div>
+          </div>
         </div>
       </div>
     </div>

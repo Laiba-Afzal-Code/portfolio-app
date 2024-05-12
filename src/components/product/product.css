@@ -31,3 +31,8 @@ transition:  all 10s ease;
 .p:hover .p-img{
     transform: translateY(-100%);
 }
+@media screen  and (max-width:480px){
+    .p{
+        height: 20vh;
+    }
+}

@@ -37,6 +37,7 @@
     width: 30px;
     height: 30px;
     margin-right: 20px;
+    border-radius: 50%;
 
 }
 
@@ -88,4 +89,26 @@ textarea {
     font-size: 30px;
     cursor: pointer;
     margin: 20px 0;
+}
+
+@media screen and (max-width: 480px) {
+    .c {
+        height: 200vh;
+    }
+
+    .c-warrper {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 0px 50px;
+    }
+
+    .c-info-item {
+        width: 100%;
+        margin: 20px 0px;
+    }
+
+    form {
+        margin-top: 0px;
+    }
 }

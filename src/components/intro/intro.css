@@ -6,6 +6,9 @@
 .i-left {
     flex: 1;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .i-left-warrper {
@@ -69,7 +72,8 @@
     display: flex;
     align-items: center;
 }
-.i-desc{
+
+.i-desc {
     font-weight: 300;
 }
 
@@ -101,5 +105,31 @@
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -1;
+    z-index: 0;
+}
+
+@media screen and (max-width: 480px) {
+    .i {
+        flex-direction: column;
+    }
+
+    .i-left-warrper {
+
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+    }
+
+    .i-desc {
+        display: none;
+    }
+
+    .i-img {
+        width: 80%;
+        text-align: center;
+
+        overflow: hidden;
+    }
 }
